@@ -2,7 +2,7 @@
 
 A ready queue of EDF scheduler is generally implemented as
 a priority queue, for example, using a binary min-heap data structure in which
-(insertion/deletion) operation cannot be done in constant time. This report re-iterates a new
+(insertion/deletion) operation cannot be done in constant time. This repository re-iterates a new
 design of ready queue for EDF scheduler: a simple data structure for the ready queue
 and efficient operations to insert and remove task control blocks (TCBs) to and from the
 ready queue are shown. Insertion of a TCB of a newly released job (that cannot pre-empt the
